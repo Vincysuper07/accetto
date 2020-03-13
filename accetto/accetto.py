@@ -10,8 +10,8 @@ class MyClient(discord.Client):
         if message.author == self.user:
             return
 
-        if message.content.startswith('$hello'):
-            await message.channel.send('Hello World!')
+        if message.content.startswith('$testù'):
+            await message.channel.send('testù')
 
 def setup(bot):
       bot.add_cog(accetto(bot))
