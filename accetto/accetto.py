@@ -1,4 +1,5 @@
 import discord
+from discord.ext import commands
 
 class accetto(commands.Cog):
       def __init__(self, bot):
